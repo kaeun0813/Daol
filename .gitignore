@@ -1,1 +1,48 @@
+#  환경 변수 및 보안 파일
 .env
+.env.*
+config.json
+credentials.json
+service-account.json
+
+#  Python 관련
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+#  가상 환경 관련 (venv, pipenv, poetry)
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+
+# 프로젝트 빌드 및 배포 관련
+build/
+dist/
+*.egg-info/
+.eggs/
+.DS_Store
+*.bak
+*.log
+
+
+#  GCP Cloud Functions 관련
+# GCP 배포 시 생성되는 캐시 파일 제외
+.cloudignore
+.gcloudignore
+.gcloud/
+
+
+# Logs & Debugging
+logs/
+debug.log
+*.log
+nohup.out
+
+# Temporary Filess
+tmp/
+temp/
+__temp__/
