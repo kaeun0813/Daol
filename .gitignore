@@ -46,3 +46,5 @@ nohup.out
 tmp/
 temp/
 __temp__/
+
+tests/
